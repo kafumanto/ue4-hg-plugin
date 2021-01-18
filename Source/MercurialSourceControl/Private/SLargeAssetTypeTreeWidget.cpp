@@ -22,8 +22,8 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "SLargeAssetTypeTreeWidget.h"
+#include "MercurialSourceControlPrivatePCH.h"
 
 #include "IAssetTypeActions.h"
 #include "IAssetTools.h"

@@ -22,13 +22,13 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "MercurialSourceControlProvider.h"
+#include "MercurialSourceControlPrivatePCH.h"
 #include "SMercurialSourceControlSettingsWidget.h"
 #include "MercurialSourceControlCommand.h"
 #include "MercurialSourceControlFileState.h"
 #include "MercurialSourceControlClient.h"
-#include "MessageLog.h"
+#include "Logging/MessageLog.h"
 #include "ScopedSourceControlProgress.h"
 #include "MercurialSourceControlOperationNames.h"
 #include "ISourceControlModule.h"

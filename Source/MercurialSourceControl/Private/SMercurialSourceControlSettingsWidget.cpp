@@ -22,8 +22,8 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "SMercurialSourceControlSettingsWidget.h"
+#include "MercurialSourceControlPrivatePCH.h"
 #include "DesktopPlatformModule.h"
 #include "MercurialSourceControlModule.h"
 #include "MercurialSourceControlClient.h"

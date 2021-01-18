@@ -22,8 +22,8 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "MercurialSourceControlOperationNames.h"
+#include "MercurialSourceControlPrivatePCH.h"
 
 namespace MercurialSourceControl {
 

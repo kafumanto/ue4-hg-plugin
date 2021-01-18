@@ -22,8 +22,8 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "MercurialSourceControlCommand.h"
+#include "MercurialSourceControlPrivatePCH.h"
 
 namespace MercurialSourceControl {
 
@@ -37,9 +37,9 @@ FCommand::FCommand(
 	, Worker(InWorker)
 	, WorkingDirectory(InWorkingDirectory)
 	, ContentDirectory(InContentDirectory)
+	, bCommandSuccessful(false)
 	, OperationCompleteDelegate(InCompleteDelegate)
 	, bExecuteProcessed(0)
-	, bCommandSuccessful(false)
 	, Concurrency(EConcurrency::Synchronous)
 {
 	check(IsInGameThread());

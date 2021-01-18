@@ -22,9 +22,9 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "MercurialSourceControlStyle.h"
-#include "SlateStyle.h"
+#include "MercurialSourceControlPrivatePCH.h"
+#include "Styling/SlateStyle.h"
 #include "EditorStyle.h"
 
 namespace MercurialSourceControl {

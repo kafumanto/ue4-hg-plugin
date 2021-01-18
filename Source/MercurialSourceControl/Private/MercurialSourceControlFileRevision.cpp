@@ -22,9 +22,9 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
+#include "MercurialSourceControlFileRevision.h"
 #include "MercurialSourceControlPrivatePCH.h"
 #include "MercurialSourceControlModule.h"
-#include "MercurialSourceControlFileRevision.h"
 #include "MercurialSourceControlProvider.h"
 #include "MercurialSourceControlClient.h"
 

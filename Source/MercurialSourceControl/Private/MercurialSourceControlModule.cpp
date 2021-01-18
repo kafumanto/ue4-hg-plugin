@@ -22,8 +22,8 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "MercurialSourceControlModule.h"
+#include "MercurialSourceControlPrivatePCH.h"
 #include "Features/IModularFeatures.h"
 #include "MercurialSourceControlOperationNames.h"
 #include "MercurialSourceControlWorkers.h"

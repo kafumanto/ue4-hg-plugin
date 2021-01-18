@@ -22,12 +22,14 @@
 // SOFTWARE.
 //-------------------------------------------------------------------------------
 
-#include "MercurialSourceControlPrivatePCH.h"
 #include "MercurialSourceControlClient.h"
+#include "MercurialSourceControlPrivatePCH.h"
 #include "ISourceControlModule.h"
 #include "XmlParser.h"
-#include "PlatformFilemanager.h"
-#include "WindowsHWrapper.h"
+#if PLATFORM_WINDOWS
+#	include "Windows/AllowWindowsPlatformTypes.h"
+#endif
+
 
 // WinBase.h defines GetUserName conflicting with ISourceControlRevision::GetUserName and leads to obscure errors.
 // The line bellow prevents this error.
